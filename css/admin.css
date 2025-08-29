@@ -1,0 +1,129 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFC72C; /* This is a navy blue color, you should adjust this to match the exact color of the José Rizal University banner */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    border-bottom: 10px solid #0C1C7D;
+    border-top: 10px solid #0C1C7D;
+    padding-left: 20px; /* Remove padding to eliminate space inside the header */
+    height: 10px; /* Set a specific height for your header */
+}
+
+.header .logo {
+    color: #fff; /* Adjust if needed to match the banner text color */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header .logo img {
+    vertical-align: middle;
+    height: 80px; /* Maintain the aspect ratio */
+    width: 350px; /* Maintain the aspect ratio */
+    max-height: 200px; /* Example size, adjust as needed */
+    max-width: 500px; /* Example size, adjust as needed */
+}
+
+
+.search-section {
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-section h2 {
+    color: navy;
+}
+
+#searchBox {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px;
+    background-color: #FFC72C;
+    color: navy;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC72C;
+    color: #0C1C7D;
+}
+
+#backBtn {
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw; 
+    height: 4vh; 
+    background: #FFC72C;
+    color: #0C1C7D;
+    text-align: center;
+    padding: 1vh 0; 
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 10; 
+    border-bottom: 10px solid #0C1C7D;
+    border-top: 10px solid #0C1C7D;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 20px;
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    margin-bottom: 20px; /* Space between content container and footer */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+
+.search-section {
+    margin-top: 2px;
+    margin-bottom: 20px; /* Space between search section and table */
+}
+
+table {
+    width: 100%; /* Table should take the full width of the container */
+    border-collapse: collapse;
+}
+

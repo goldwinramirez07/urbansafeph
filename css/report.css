@@ -1,0 +1,252 @@
+/* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFE500;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -200px; /* Start hidden on the left */
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        transition: left 0.3s ease;
+        padding: 0px;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 50px;
+        background-color: #1B413A; /* Button background color */
+        color: #FFFFFF; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-top-right-radius: 8px; /* Rounded corners */
+        border-bottom-right-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/urban-logo.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .forum-open-btn {
+        background-color: #1B413A;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px;
+        background-image: url('../pics/forum.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 20px; /* Increase padding to make space for the image */
+    }
+    
+    .contact-respond-btn {
+        background-color: #FFFFFF;
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/phone.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .report-fire-btn {
+        background-color: #A10707;
+        color: #ffffff; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/fire.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .report-flood-btn {
+        background-color: #16C7C7;
+        color: #ffffff; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/flood.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    .report-crime-btn {
+        background-color: #9776C0;
+        color: #ffffff; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/crime.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    .report-incident-btn {
+        background-color: #FF5C00;
+        color: #ffffff; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        background-image: url('../pics/incident.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .menu-display {
+        background-color: #FFE500; /* Button background color */
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius:  8px; /* Rounded corners */
+        background-image: url('../pics/urban-logo.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .menu-home-display {
+        background-color: #FFE500; /* Button background color */
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius:  8px; /* Rounded corners */
+        background-image: url('../pics/home.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    .menu-forum-display {
+        background-color: #FFE500; /* Button background color */
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius:  8px; /* Rounded corners */
+        background-image: url('../pics/forum.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    .menu-report-display {
+        background-color: #FFE500; /* Button background color */
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius:  8px; /* Rounded corners */
+        background-image: url('../pics/report.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    .menu-notification-display {
+        background-color: #FFE500; /* Button background color */
+        color: #000; /* Button text color */
+        border: none; /* Remove border */
+        padding: 10px 20px; /* Add some padding */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius:  8px; /* Rounded corners */
+        background-image: url('../pics/notification.png'); /* Add your image */
+        background-size: 20px; /* Width of the image */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: 10px center; /* Adjust positioning of the image */
+        padding-left: 40px; /* Increase padding to make space for the image */
+    }
+    
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -200px;
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        transition: left 0.3s ease;
+        padding: 0px;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+    
+    .menu ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        color: #ffffff;
+        padding: 10px 10px;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 600px) {
+        .logo {
+            height: 40px;
+            margin-right: 10px;
+        }
+    
+        .title {
+            font-size: 20px;
+        }
+    }
+    
+    .dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: auto; /* Ensure it's centered */
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* Main shadow */
+                0 6px 20px rgba(0, 0, 0, 0.1); 
+}
